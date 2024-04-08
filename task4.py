@@ -16,3 +16,16 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+pi = 3.1415926535897931
+
+question = "What is the radius?"
+r = input(question)
+r = int(r)
+
+question = "What is the slant?"
+s = input(question)
+s = int(s)
+
+SA = (pi*r*s) + (pi*r**2)
+print(f"The surface area of the cone is {SA}.")
